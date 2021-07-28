@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d45a5a6b;
+}
+#game {
+    display: block;
+    margin:30px auto;
+    border: 1px solid black;
+    box-shadow: 0 0 12px 0 #4e2d4de3;
+    background: aqua;
+}
+.settings {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.reset {
+    display: block;
+
+}
+.level {
+    display: block;
+    margin: 10px 0;
+}
